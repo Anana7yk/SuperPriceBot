@@ -1,5 +1,5 @@
-python-telegram-bot
-requests
-beautifulsoup4
-matplotlib
-apscheduler
+python-telegram-bot==20.0
+requests==2.28.0
+beautifulsoup4==4.11.1
+matplotlib==3.5.2
+sqlite3
