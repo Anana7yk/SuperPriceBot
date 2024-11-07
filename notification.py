@@ -18,7 +18,6 @@ class NotificationManager:
                 if current_price < item['price']:
                     self.db.update_price(item['item_id'], current_price)
 
-                    # Отправка уведомления через Telegram
                     self.send_notification(item['user_id'], item['url'], current_price)
 
                     print(f'Цена на товар {item["url"]} снизилась! Новая цена: {current_price} руб.')
