@@ -1,9 +1,6 @@
 import time
 from telegram import Bot
-
 from typing import Optional
-
-
 class NotificationManager:
     def __init__(self, db, scraper, bot_token: str):
         self.db = db
